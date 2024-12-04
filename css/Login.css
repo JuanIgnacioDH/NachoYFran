@@ -2,12 +2,15 @@
 /* MIO */
 body {
     font-family: Arial, sans-serif;
-    display: flex;
+    margin: 0;
+    min-height: 100vh; /* Asegura que el fondo cubra toda la ventana */
+    background-image: url('../images/banner.jpg'); /* Ajusta la ruta según la ubicación de la imagen */
+    background-size: cover; /* Asegura que la imagen cubra todo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Hace que el fondo permanezca fijo */
+    display: flex; /* Centra el contenido */
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #f3f3f3;
 }
 .container {
     width: 90%;
